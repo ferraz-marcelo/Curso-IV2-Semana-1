@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    background-image: url(imagens/DESTAQ-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+#title {
+    background-image: url(imagens/1500x500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    height: 410px;
+    box-shadow: 0px 3px 3px yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6em;
+    color: goldenrod;
+    text-shadow: -2px 2px 2px black;
+ }
+ 
+ header {
+     background-image: url(imagens/navbarimg.PNG);
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     align-items:flex-end;
+     justify-content: center;
+     height: 150px;   
+ }
+
+ header a {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 25px;
+     text-decoration: none;
+     padding: 100px;
+     color: goldenrod;
+ }
+
+ #img-div {
+   margin: auto;
+   width: 80%;
+   padding: 50px;
+   text-align: center;
+ }
+
+ #img-div img {
+    height: 500px;
+    width: 800px;
+ }
+
+ h2 {
+     color: goldenrod; 
+     line-height: 3;   
+ }
+
+ h3 {
+     color: goldenrod;
+     line-height: 3;
+ }
+
+ #history {
+    margin: auto;
+    width: 80%;
+    color: white;
+    text-shadow: 0px 1px 2px black;
+    text-align: justify;
+    padding: 50px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    box-shadow: inset 0px 1px 1px goldenrod, inset 1px 1px 1px goldenrod, 1px 1px 1px goldenrod;
+    line-height: 1.5;
+    justify-content:space-around;
+ }
+
+ #timeline {
+    margin: auto;
+    width: 80%;
+    color: white;
+    text-shadow: 0px 1px 2px black;
+    text-align: justify;
+    padding: 50px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    box-shadow: inset 0px 1px 1px goldenrod, inset 1px 1px 1px goldenrod, 1px 1px 1px goldenrod;
+    line-height: 1;
+ }
+
+ .clubes * {
+    display: inline-block;
+ }
+
+ .clubes img {
+    width: 32px;
+ }
+
+ .clubes p {
+    position: relative;
+    top: -12px;
+    left: 10px;
+ }
+
+ #achievements {
+    margin: auto;
+    width: 80%;
+    color: white;
+    text-shadow: 0px 1px 2px black;
+    text-align: justify;
+    padding: 50px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    box-shadow: inset 0px 1px 1px goldenrod, inset 1px 1px 1px goldenrod, 1px 1px 1px goldenrod;
+    line-height: 1.5;
+ }
+
+ #gallery {
+
+    margin: auto;
+    width: 80%;
+    color: white;
+    text-shadow: 0px 1px 2px black;
+    text-align: justify;
+    padding: 50px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    border: 1px solid black;
+    box-shadow: inset 0px 1px 1px goldenrod, inset 1px 1px 1px goldenrod, 1px 1px 1px goldenrod;
+    line-height: 1.5;
+ }
+
+ .r9images {
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 0px;
+    border: 1px solid gold;
+    box-shadow: 1px 1px 1px black, 0px 1px 1px gold;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+ }
+
+ .r9images:hover {
+    transform: scale(1.1);
+ }
+
+ footer {
+   margin: auto;
+   width: 80%;
+   text-shadow: 0px 1px 2px black;
+   text-align: justify;
+   padding: 50px;
+   margin-bottom: 10px;
+   border: 1px solid black;
+   box-shadow: inset 0px 1px 0px goldenrod;
+ }
+
+ footer img {
+    margin-right: 20px;
+    
+ }
+
+ .date {
+    color: goldenrod;
+    font-size: 1.2em;
+ }
+
